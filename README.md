@@ -24,6 +24,8 @@ The neural network consisted of multiple dense layers, including hidden layers w
   - The latest neural network model utilized four layers: an input layer, three hidden layers, and an output layer. Each hidden layer incorporates a dropout layer to enhance robustness. The first hidden layer employs ReLU activation, the second employs tanh activation, and the third employs sigmoid activation. This selection aims to strike a balance between model complexity and generalization, facilitating the capture of diverse data patterns.
 - **Activation Functions:** 
   - ReLU is used for all dense layers except the output layer, which uses the sigmoid activation function suitable for binary classification.
+- **Steps Taken to Improbe Model:** 
+  - Several steps were taken to improve model performance, including adjusting input data preprocessing techniques, optimizing model architecture, tuning hyperparameters, and employing advanced optimization algorithms. Regular monitoring of training and validation metrics guided optimization efforts.
 
 ## Summary:
 Despite trying various optimization techniques like adjusting neuron count, layer depth, activation functions, optimizers, and learning rates, the model only achieved around 72.57% accuracy and fell short of the 75% target. While the model showed promise, further exploration and refinement are needed.
