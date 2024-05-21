@@ -14,7 +14,7 @@ The objective of this analysis was to develop a deep learning model for predicti
 ## Results/Data Preprocessing:
 - **Target Variable(s):** 'IS_SUCCESSFUL' indicates the success or failure of a charity donation.
 - **Feature Variables:** 
-  - Includes APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT, and IS_SUCCESSFUL.
+  - Includes APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT.
 - **Variables Removed:** 
   - 'EIN' and 'NAME' columns were eliminated as they weren't relevant to the analysis.
 
